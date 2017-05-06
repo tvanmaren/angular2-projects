@@ -1,42 +1,71 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+/starter-app/dist
+/starter-app/tmp
+/starter-app/out-tsc
+/basics-assignment-1-start/dist
+/basics-assignment-1-start/tmp
+/basics-assignment-1-start/out-tsc
 
 # dependencies
-/node_modules
+/starter-app/node_modules
+/basics-assignment-1-start/node_modules
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/starter-app/.idea
+/starter-app/.project
+/starter-app/.classpath
+/starter-app/.c9/
+/starter-app/*.launch
+/starter-app/.settings/
+/starter-app/*.sublime-workspace
+/basics-assignment-1-start/.idea
+/basics-assignment-1-start/.project
+/basics-assignment-1-start/.classpath
+/basics-assignment-1-start/.c9/
+/basics-assignment-1-start/*.launch
+/basics-assignment-1-start/.settings/
+/basics-assignment-1-start/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+/starter-app/.vscode/*
+/starter-app/!.vscode/settings.json
+/starter-app/!.vscode/tasks.json
+/starter-app/!.vscode/launch.json
+/starter-app/!.vscode/extensions.json
+/basics-assignment-1-start/.vscode/*
+/basics-assignment-1-start/!.vscode/settings.json
+/basics-assignment-1-start/!.vscode/tasks.json
+/basics-assignment-1-start/!.vscode/launch.json
+/basics-assignment-1-start/!.vscode/extensions.json
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
+/starter-app/.sass-cache
+/starter-app/connect.lock
+/starter-app/coverage
+/starter-app/libpeerconnection.log
+/starter-app/npm-debug.log
+/starter-app/testem.log
+/starter-app/typings
+/basics-assignment-1-start/.sass-cache
+/basics-assignment-1-start/connect.lock
+/basics-assignment-1-start/coverage
+/basics-assignment-1-start/libpeerconnection.log
+/basics-assignment-1-start/npm-debug.log
+/basics-assignment-1-start/testem.log
+/basics-assignment-1-start/typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+/starter-app/e2e/*.js
+/starter-app/e2e/*.map
+/basics-assignment-1-start/e2e/*.js
+/basics-assignment-1-start/e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
+/starter-app/.DS_Store
+/starter-app/Thumbs.db
+/basics-assignment-1-start/.DS_Store
+/basics-assignment-1-start/Thumbs.db
