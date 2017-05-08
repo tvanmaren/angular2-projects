@@ -17,4 +17,8 @@ export class AppComponent {
   getColor(click) {
     return this.displayClicks.indexOf(click)>=4 ? 'blue' : 'white';
   }
+
+  getFont(click) {
+    return this.displayClicks.indexOf(click)>=4 ? 'white' : 'black';
+  }
 }
