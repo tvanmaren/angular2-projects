@@ -7,10 +7,14 @@
 /basics-assignment-1-start/dist
 /basics-assignment-1-start/tmp
 /basics-assignment-1-start/out-tsc
+/basics-assignment-2-start/dist
+/basics-assignment-2-start/tmp
+/basics-assignment-2-start/out-tsc
 
 # dependencies
 /starter-app/node_modules
 /basics-assignment-1-start/node_modules
+/basics-assignment-2-start/node_modules
 
 # IDEs and editors
 /starter-app/.idea
@@ -27,6 +31,13 @@
 /basics-assignment-1-start/*.launch
 /basics-assignment-1-start/.settings/
 /basics-assignment-1-start/*.sublime-workspace
+/basics-assignment-2-start/.idea
+/basics-assignment-2-start/.project
+/basics-assignment-2-start/.classpath
+/basics-assignment-2-start/.c9/
+/basics-assignment-2-start/*.launch
+/basics-assignment-2-start/.settings/
+/basics-assignment-2-start/*.sublime-workspace
 
 # IDE - VSCode
 /starter-app/.vscode/*
@@ -39,6 +50,11 @@
 /basics-assignment-1-start/!.vscode/tasks.json
 /basics-assignment-1-start/!.vscode/launch.json
 /basics-assignment-1-start/!.vscode/extensions.json
+/basics-assignment-2-start/.vscode/*
+/basics-assignment-2-start/!.vscode/settings.json
+/basics-assignment-2-start/!.vscode/tasks.json
+/basics-assignment-2-start/!.vscode/launch.json
+/basics-assignment-2-start/!.vscode/extensions.json
 
 # misc
 /starter-app/.sass-cache
@@ -55,12 +71,21 @@
 /basics-assignment-1-start/npm-debug.log
 /basics-assignment-1-start/testem.log
 /basics-assignment-1-start/typings
+/basics-assignment-2-start/.sass-cache
+/basics-assignment-2-start/connect.lock
+/basics-assignment-2-start/coverage
+/basics-assignment-2-start/libpeerconnection.log
+/basics-assignment-2-start/npm-debug.log
+/basics-assignment-2-start/testem.log
+/basics-assignment-2-start/typings
 
 # e2e
 /starter-app/e2e/*.js
 /starter-app/e2e/*.map
 /basics-assignment-1-start/e2e/*.js
 /basics-assignment-1-start/e2e/*.map
+/basics-assignment-2-start/e2e/*.js
+/basics-assignment-2-start/e2e/*.map
 
 # System Files
 .DS_Store
@@ -69,3 +94,5 @@ Thumbs.db
 /starter-app/Thumbs.db
 /basics-assignment-1-start/.DS_Store
 /basics-assignment-1-start/Thumbs.db
+/basics-assignment-2-start/.DS_Store
+/basics-assignment-2-start/Thumbs.db
