@@ -7,7 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   displaySecret = false;
+  displayClicks=[];
+
   toggleDisplay() {
     this.displaySecret=!this.displaySecret;
+    this.displayClicks.push(Date.now());
+  }
+
+  getColor(click) {
+    return this.displayClicks.indexOf(click)>=4 ? 'blue' : 'white';
   }
 }
