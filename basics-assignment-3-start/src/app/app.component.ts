@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  displaySecret = false;
+  toggleDisplay() {
+    this.displaySecret=!this.displaySecret;
+  }
 }

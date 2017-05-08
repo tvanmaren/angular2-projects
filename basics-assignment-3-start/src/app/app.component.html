@@ -9,7 +9,8 @@
         <li>Starting at the 5th log item, give all future log items a blue background (via ngStyle) and white color (ngClass)</li>
       </ol>
       <hr>
-      <button class="btn btn-primary">Display Details</button>
+      <button class="btn btn-primary" (click)="toggleDisplay()">Display Details</button>
+      <p *ngIf="displaySecret">Secret Password = 'Swordfish'</p>
     </div>
   </div>
 </div>
